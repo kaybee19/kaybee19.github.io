@@ -793,6 +793,10 @@ h4 	{
 	opacity: .75;
 }
 
+#cont-detail .btn 	{
+    box-shadow: none;
+}
+
 #map 	{
 	height: 100%;
 }
@@ -973,16 +977,6 @@ h4 	{
 
 #contact .lead 	{
 	font-size: .9rem;
-}
-
-#contact .form-control 	{
-	font-size: .8rem;
-	padding: 1.5rem;
-	padding-left: .25rem;
-	background-color: transparent;
-	color: white;
-	letter-spacing: .25rem;
-    border-bottom: 1px solid #dee2e6!important;
 }
 
 #cont-detail 	{
