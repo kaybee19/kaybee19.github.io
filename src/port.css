@@ -132,7 +132,7 @@ body	{
 #header i 	{
 	color: #a9081c;
 	margin-bottom: 1rem;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 #header .active i	{
@@ -202,7 +202,7 @@ body	{
 }
 
 #img1 .display-3 	{
-	font-size: 4rem;
+	font-size: 2.5rem;
 	margin-bottom: 1.5rem;
 }
 
@@ -260,7 +260,7 @@ h4 	{
 }
 
 #hero-btm h4 	{
-	font-size: .8rem;
+	font-size: .7rem;
 }
 
 #hero-btm p 	{
@@ -268,7 +268,7 @@ h4 	{
 }
 
 #hero-btm .btn-danger 	{
-	font-size: .7rem;
+	font-size: .6rem;
 	padding: .5rem .5rem;
 	background-color: #a9081c;
 	margin-top: 1rem;
@@ -306,7 +306,7 @@ h4 	{
 }
 
 #side-hero .para {
-	margin-top: 3rem;
+	margin-top: 1.5rem;
 	padding: 2rem 0rem;
 	color: #818181;
 }
@@ -319,26 +319,11 @@ h4 	{
 	pointer-events: none; 
 }
 
-#side-hero .para:before {
-    content: ' ';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-	background-image: url('https://kaybee19.github.io/src/assets/images/p_close.png');
-	background-size: 6%;
-	background-position: 0% 60%;
-	background-repeat: no-repeat;
-}
 
 /*-- Fix for About side-hero --*/
 
 #about {
 	overflow-y: scroll;
-}
-
-#about .para:before {
-	background-position: 0% 90%;
 }
 
 #educ p 	{
@@ -377,7 +362,8 @@ h4 	{
 #skills .tag 	{
 	background-color: #f52640;
 	text-align: center;
-	width: 7.5rem;
+	width: 3.5rem;
+	font-size: .8rem;
 	text-transform: uppercase;
 }
 
@@ -767,6 +753,7 @@ h4 	{
 	margin: 10rem 0rem 5rem;
 	width: 80%;
 	font-weight: bolder;
+	font-size: .75rem;
 	border-radius: 1.5%;
 	box-shadow: -5px 5px 40px black;
 }
@@ -850,10 +837,6 @@ h4 	{
 	overflow-y: hidden;
 }
 
-#side-hero .para:before {
-	background-position: 0% 70%;
-}
-
 #projects .p-bgimage {
     height: 22.5vh!important;
     width: 22.5vh!important;
@@ -868,10 +851,6 @@ h4 	{
 
 #about {
 	overflow-y: hidden;
-}
-
-#side-hero .para:before {
-	background-position: 0% 70%;
 }
 
 #side-project .proj-img {
@@ -953,12 +932,7 @@ h4 	{
 	margin-top: 5rem;
 }
 
-#side-hero .para:before {
-    height: 100%;
-	background-position: left;
-}
-
-#side-hero .font h1, #side-hero .font h1:before, #side-hero .para , #side-hero .para:before {
+#side-hero .font h1, #side-hero .font h1:before, #side-hero .para 	{
 	background-size: 3.3%;
 }
 
@@ -981,6 +955,7 @@ h4 	{
 
 #cont-detail 	{
 	margin-top: 0rem;
+	font-size: 1rem;
 	position: absolute;
 	width: 40%!important;
 	margin-left: -1rem!important;
@@ -1019,6 +994,11 @@ h4 	{
 
 #footer 	{
 	display: flex!important;
+}
+
+#skills .tag 	{
+	width: 7.5rem;
+	font-size: 1rem;
 }
 
 #work .side-hr, #work .side1-hr 	{
