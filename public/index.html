@@ -1,0 +1,1063 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://kaybee19.github.io/src/assets/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://kaybee19.github.io/src/assets/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://kaybee19.github.io/src/port.css">
+    <title>K.G | Portfolio | Freelance Developer</title>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+</head>
+<body onload="setHero()">
+<!-- Nav -->
+<div id="screen"></div>
+<section class="row mx-0" id="top" style="width: 100%;">
+<div class="col-lg-1 col-12 d-flex px-0">
+  <section id="nav" class="navbar-expand-lg">
+  <div class="img">
+    <img src="kaybee_logo.png">
+  </div>
+  <div class="collapse navbar-collapse" id="header">
+    <nav class="nav d-flex justify-content-center">
+      <a class="nav-link active" data-toggle="tab" href="#" onclick="chngNav('hero')"><i class="fas fa-home fa-lg" data-toggle="tooltip" data-placement="right" title="Home"></i></a>
+      <a class="nav-link" data-toggle="tab" href="#" onclick="chngNav('skills'), progress()"><i class="fas fa-cogs fa-lg" data-toggle="tooltip" data-placement="right" title="Skills"></i></a>
+      <a class="nav-link" data-toggle="tab" href="#" onclick="chngNav('work')"><i class="fas fa-briefcase fa-lg" data-toggle="tooltip" data-placement="right" title="Experience"></i></a>
+      <a class="nav-link" data-toggle="tab" href="#" onclick="chngNav('projects')"><i class="fas fa-tasks fa-lg" data-toggle="tooltip" data-placement="right" title="Projects"></i></a>
+      <a class="nav-link" data-toggle="tab" href="#" onclick="chngNav('contact')"><i class="fas fa-envelope fa-lg" data-toggle="tooltip" data-placement="right" title="Contact"></i></a>
+    </nav>
+  </div>
+  <div class="d-flex h-25 justify-content-center align-items-center" id="footer">
+    <nav class="nav text-center">
+      <a href="https://www.linkedin.com/in/kabir-gafai-64868a100/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/kaybee19" target="_blank"><i class="fab fa-github-alt"></i></a>
+      <a href="#"><i class="fab fa-behance"></i></a>
+    </nav>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header">
+    <i class="fas fa-bars fa-lg"></i>
+  </button>
+  </section>
+</div>
+<!-- End Nav -->
+<!-- Hero -->
+<!-- Side Navs -->
+<section id="side-hero">
+  <div id="about" class="sidenav font">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1>About Me</h1>
+    <div class="para"><p class="lead"><s>I am a front-end and database designer who loves</s>
+      <br>I got into IT because I like building things, from Lego's to fantasy teams to businesses. I thought I'd also be interested in the idea of building programs and applications. But with all the bugs and errors and that stuff that makes you stare at the same screen for over an hour, now I just do it because I'm good at it. I do enjoy learning new languages though, up until it makes me lose sleep and pull my hair out.
+	  <br><br>
+	  <s>Well organized, attention to detail, people-oriented</s>
+	  <br>I generally work remotely as a preference; I do my best work when I am alone. Currently I work part-time as a Tech Consultant at Life Shield & Armour Security Services. I see myself as a <s>struggling</s> entrepreneur, and all my ventures are borne from things I am passionate about. I love to be involved in all stages of work, and will usually try to push my ideas onto whatever I am working on (Ive been told I can be overbearing).
+	  <br><br>
+	  I've tried <s>and failed</s> a lot of different ideas, applications and business ventures. My biggest success so far is Sunset Drive-In, an outdoor theater I co-founded. I think my willingness to try so much steams from my ridiculous optimism, so I am always looking to explore new cultures, ideas, and experiences.
+	</p></div>
+  </div>
+
+  <div id="educ" class="sidenav font">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1>Education</h1>
+    <div class="para">
+      <br>
+      <ul class="list-unstyled lead">
+      <li><div class="d-flex w-100"><p class="text-left w-50">University of Maryland, Baltimore County</p><p class="text-right w-50">Maryland, USA</p></div>
+        <ul class="list-unstyled">
+          <li><p class="lead mb-0 font-weight-bold">Masters of Science in Information System</p>
+          	  <p class="lead mt-0 w-100 text-right">2014 - 2015</p></li>
+        </ul>
+      </li>
+      </ul>
+      <br><br>
+      <ul class="list-unstyled lead">
+      <li><div class="d-flex w-100"><p class="text-left w-50">Jamia Hamdard University</p><p class="text-right w-50">Delhi, India</p></div>
+        <ul class="list-unstyled">
+          <li><p class="lead mb-0 font-weight-bold">Bachelors of Computer Application</p>
+          	  <p class="lead mt-0 w-100 text-right">2010 - 2013</p></li>
+        </ul>
+      </li>
+      </ul>
+	</div>
+  </div>
+
+  <div id="hobby" class="sidenav font">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1>My Hobbies</h1>
+    <div class="para">
+      <ul class="list-unstyled">
+      <li class="font-weight-bold">Hobbies
+        <ul class="list-unstyled">
+          <li><p class="lead mb-0">Cooking</p></li>
+          <li><p class="lead mb-0">Gaming</p></li>
+          <li><p class="lead mb-0">Watching sports</p></li>
+          <li><p class="lead mb-0">Movie buff</p></li>
+          <li><p class="lead mb-0"><s>Sleeping</s></p></li>
+        </ul>
+      </li>
+      </ul>
+      <ul class="list-unstyled">
+      <li class="font-weight-bold">Random fact #1
+        <ul class="list-unstyled">
+          <li><p class="lead mb-0">Ive been to over 7 countries, which I think is a huge achievement since I hate traveling.</p></li>
+        </ul>
+      </li>
+      </ul>
+      <ul class="list-unstyled">
+      <li class="font-weight-bold">Random fact #2
+        <ul class="list-unstyled">
+          <li><p class="lead mb-0">I try a new and complex recipe every week. Most times I mess it up, but whenever I get it right I feel like Remy from Ratatouille.</p></li>
+        </ul>
+      </li>
+      </ul>
+      <ul class="list-unstyled">
+      <li class="font-weight-bold">Random fact #3
+        <ul class="list-unstyled">
+          <li><p class="lead mb-0">I am terrified of snakes.</p></li>
+        </ul>
+      </li>
+      </ul>
+  </div>
+  </div>
+</section>
+<!-- End Side Navs -->
+<div class="main" id="hero">
+  <div class="col-12 col-lg-10 offset-lg-2" style="height: 100%;">
+  <div class="col-12 col-lg-10 d-flex align-items-end" id="img1">
+    <div>
+    <h1 class="display-3 font-weight-bold">Hi, I'm Kabir.</h1>
+    <p class="lead">Front End Developer / Database Developer / Web Designer</p>
+    <button class="btn btn-outline-danger btn-lg rounded-0" onclick="chngNav('contact')"><p class="btn-shift">CONTACT ME</p></button>
+  </div>
+  </div>
+  <div class="col-12 col-lg-10" id="hero-btm">
+  <div class="row container px-0" style="border-top: 2px solid; border-top-width: 50%; border-color: #716b6d;">
+    <div class="col-4"><div class="b-top"></div>
+      <h4>About Me</h4>
+      <p class="lead" style="color: gray">Freelance developer working out of Nigeria, I specialize in design, front-end and database development</p>
+      <button class="btn btn-danger rounded-0" onclick="openNav('about')">Learn More</button>
+    </div>
+    <div class="col-4"><div class="b-top"></div>
+      <h4>Education</h4>
+      <p class="lead" style="color: gray">Majored in computer application, with a post-graduate degree in Information Systems from UMBC</p>
+      <button class="btn btn-danger rounded-0" onclick="openNav('educ')">Learn More</button>
+    </div>
+    <div class="col-4"><div class="b-top"></div>
+      <h4>My Interests</h4>
+      <p class="lead" style="color: gray">Find out my passion, hobbies, and what I do when I am not in front of the computer</p>
+      <button class="btn btn-danger rounded-0" onclick="openNav('hobby')">Learn More</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- End Hero -->
+<!-- Skills -->
+<div class="main" id="skills">
+  <div class="col-12 col-lg-10 offset-lg-2" style="height: 100%;">
+  <div class="row" style="height: 100%;">
+    <div class="col-12 col-lg-10 d-flex align-items-center" style="flex-wrap: wrap;">
+    <div class="col-12 col-lg-5">
+    <h1 class="display-4 font-weight-bold">Skills</h1>
+    <p class="lead">My areas of expertise are database development and front-end development. Ive used my skills to build small and medium scale web applications.
+      <br><br>I have experience working with open-source CMS, and building custom websites and applications from the ground-up. I also have a passion for UI and design. I have created mock-ups, animations, and other graphics for different clients and projects. 
+      <br><br>Currently, I am learning a few more languages to expand my expertise; Node.js, Angular, and NoSQL.</p>
+    </div>
+    <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-5 offset-xl-2">
+        <div class="bars-wrap">
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 90%">
+            <div class="fill" id="test" style="width:0%">
+              <div class="tag">html</div>
+            </div>
+            </div>
+            <span>90%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 85%">
+            <div class="fill" style="width:0%">
+              <div class="tag">css</div>
+            </div>
+            </div>
+            <span>85%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 90%">
+            <div class="fill" style="width:00%">
+              <div class="tag">pl/sql</div>
+            </div>
+            </div>
+            <span>90%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 85%">
+            <div class="fill" style="width:0%">
+              <div class="tag">dbms</div>
+            </div>
+            </div>
+            <span>85%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 85%">
+            <div class="fill" style="width:0%">
+              <div class="tag">oracle apex</div>
+            </div>
+            </div>
+            <span>85%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 80%">
+            <div class="fill" style="width:0%">
+              <div class="tag">adobe cs</div>
+            </div>
+            </div>
+            <span>80%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 75%">
+            <div class="fill" style="width:0%">
+              <div class="tag">CMS</div>
+            </div>
+            </div>
+            <span>75%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 70%">
+            <div class="fill" style="width:00%">
+              <div class="tag">javascript</div>
+            </div>
+            </div>
+            <span>70%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 60%">
+            <div class="fill" style="width:0%">
+              <div class="tag">nosql</div>
+            </div>
+            </div>
+            <span>60%</span>
+          </div>
+          <div class="bar d-flex">
+            <div class="bar-cont" style="width: 50%">
+            <div class="fill" style="width:0%">
+              <div class="tag">node.js</div>
+            </div>
+            </div>
+            <span>50%</span>
+          </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<!-- End Skills -->
+<!-- Work -->
+<div class="main" id="work">
+  <div class="col-10 offset-1 col-lg-9 offset-lg-2">
+      <div class="row">
+      <div class="col-12 col-lg-5 px-0">
+        <div class="px-0 bg-color">
+      <div class="box" href="javascript:void(0)" onclick="openNav('work1')">
+        <h6 class="font-weight-bold">Associate Developer</h6>
+        <p class="small">Securities and Exchange Commission, Nigeria, 2017 - 2017</p>
+        <p class="my-0">Database developer part of the team responsible for creating, maintaining and overseeing existing applications within the commission. I also designed and developed a commission-wide ticketing application.</p>
+      </div></div>
+      </div>
+      <hr class="side-hr">
+      </div>
+      <div class="row">
+      <div class="col-12 col-lg-5 offset-lg-6 px-0">
+      <hr class="side1-hr">
+        <div class="px-0 bg-color">
+      <div class="box" href="javascript:void(0)" onclick="openNav('work2')">
+        <h6 class="font-weight-bold">CFO / Co-Founder</h6>
+        <p class="small">Sunset Drive-In Cinema, 2017 - PRESENT</p>
+        <p class="my-0">Co-founded Africa's first drive-in theater. I helped design company graphics, flyers, and other media for advertising. Developed company website, and maintained a comprehensive record management system.</p>
+      </div></div>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-12 col-lg-5 px-0">
+        <div class="px-0 bg-color">
+      <div class="box" href="javascript:void(0)" onclick="openNav('work3')">
+        <h6 class="font-weight-bold">Freelance Developer</h6>
+        <p class="small">N/A, 2018 - PRESENT</p>
+        <p class="my-0">Experience working for a variety of clients on different projects. During my time freelancing, I have had time to develop skills in coding, design, aesthetics and the ability to interact and work with professionalism.</p>
+      </div></div>
+      </div>
+      <hr class="side-hr">
+      </div>
+      <div class="row">
+      <div class="col-12 col-lg-5 offset-lg-6 px-0">
+      <hr class="side1-hr">
+        <div class="px-0 bg-color">
+      <div class="box" href="javascript:void(0)" onclick="openNav('work4')">
+        <h6 class="font-weight-bold">Database Analyst - Remote</h6>
+        <p class="small">Waves Travel and Tours Limited, 2018 - 2019</p>
+        <p class="my-0">Part of the development team responsible for database management. Assisted in creating new and maintaining old database architectures and environments, and all their supporting objects.</p>
+      </div></div>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-12 col-lg-5 px-0">
+        <div class="px-0 bg-color">
+      <div class="box" href="javascript:void(0)" onclick="openNav('work5')">
+        <h6 class="font-weight-bold">Tech Consultant - Remote</h6>
+        <p class="small">Life Shield & Armour Security Services, Nigeria, 2019 - PRESENT</p>
+        <p class="my-0">Provided solutions to technological issues and limitations existing within the company. Integrated new technology based on company needs to better support overall business and organizational goals.</p>
+      </div></div>
+      </div>
+      <hr class="side-hr">
+      </div>
+  </div>
+</div>
+<!-- Side Navs -->
+<section id="side-work">
+  <div id="work1" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Associate Developer</h1>
+    <div class="d-flex" style="color: gray;">
+    <h6 class="col-6 px-0">Security And Exchange Commission, Nigeria</h6>
+    <h6 class="col-6 px-0 text-right">01/2017 – 10/2017</h6>
+    </div>
+    <p class="use"><em>SKILLS: SQL, PL/SQL, ORACLE APEX, JAVASCRIPT</em></p>
+    <div class="para py-0">
+      <ul class="lead px-3">
+        <li>Designed and implemented commission-wide help desk application using Oracle APEX to manage and resolve issues raised through tickets.</li>
+        <li>Assisted with development of worktool application for assigning, tracking and maintaining records of computer devices and equipment allocated to staff.</li>
+        <li>Responsible for maintaining and updating existing applications.</li>
+        <li>Provided IT support and resolved technical issues.</li>
+        <li>Performed office tasks of research, analysis, documentation, and other duties as assigned.Designed and implemented commission-wide help desk application using Oracle APEX to manage and resolve issues raised through tickets.</li>
+        <li>Assisted with development of worktool application for assigning, tracking and maintaining records of computer devices and equipment allocated to staff.</li>
+        <li>Responsible for maintaining and updating existing applications.</li>
+        <li>Provided IT support and resolved technical issues.</li>
+        <li>Performed office tasks of research, analysis, documentation, and other duties as assigned.</li>
+    </ul>
+    </div>
+  </div>
+  <div id="work2" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">CFO / Co-Founder</h1>
+    <div class="d-flex" style="color: gray;">
+    <h6 class="col-6 px-0">Sunset Drive-In Cinema</h6>
+    <h6 class="col-6 px-0 text-right">10/2017 – PRESENT</h6>
+    </div>
+    <p class="use"><em>SKILLS: ADOBE CS, CMS</em></p>
+    <div class="para py-0">
+      <ul class="lead px-3">
+        <li>Co-founded and launched West Africa’s first drive-in theatre.</li>
+        <li>Oversaw and lead investment presentations and fund-raising campaigns that collectively rose over $20,000 in financing and equipment.</li>
+        <li>Successfully negotiated contract partnerships with local and international companies.</li>
+        <li>Designed company flyers, logos and other business graphics.</li>
+        <li>Helped develop and manage company website using Wordpress.</li>
+        <li>Developed extensive record keeping system using MS Excel and MS Access.</li>
+        <li>Oversaw maintenance and documentation of financial activities and administered financial processes including analysis, planning, budgeting and salaries, and forecasting.</li>
+        <li>Oversaw and lead team in execution of different business hypothesis.</li>
+        <li>Adopted a lean startup method and achieved over 50% growth after 4 months of operation.</li>
+        <li>Participated and selected as finalist of Africa’s Youth Entrepreneurs (AYE) program, with company being showcased on AYE Reality show <a href="https://youtu.be/PfXj51CjfVk" target="_blank">youtu.be/PfXj51CjfVk.</a></li>
+    </ul>
+    </div>
+  </div>
+  <div id="work3" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Freelance Developer</h1>
+    <div class="d-flex" style="color: gray;">
+    <h6 class="col-6 px-0">N/A</h6>
+    <h6 class="col-6 px-0 text-right">01/2018 - PRESENT</h6>
+    </div>
+    <p class="use"><em>SKILLS: HTML, CSS, JAVASCRIPT, BOOTSTRAP, ABODE CS, CMS</em></p>
+    <div class="para py-0">
+      <ul class="lead px-3">
+        <li>Worked on a range of freelance web projects which included WordPress, application and web design and development.</li>
+        <li>Developed and coded responsive websites for Hassan + King Real Estate Consulting, The G-League, and other local clients.</li>
+        <li>Designed database schema's and environments for different companies.</li>
+        <li>Designed database environment and helped developed prototype web application for Ballotics.</li>
+        <li>Created, designed and printed graphic content including infographics, flyers, logos, and brochures for different clientele.</li>
+        <li>Developed personal skills of communication, time/resource management, critical thinking and analysis, and self-motivation.</li>
+    </ul>
+    </div>
+  </div>
+  <div id="work4" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Database Analyst - Remote</h1>
+    <div class="d-flex" style="color: gray;">
+    <h6 class="col-6 px-0">Waves Travel and Tours Limited</h6>
+    <h6 class="col-6 px-0 text-right">10/2018 - 04/2019</h6>
+    </div>
+    <p class="use"><em>SKILLS: DBMS, PL/SQL</em></p>
+    <div class="para py-0">
+      <ul class="lead px-3">
+        <li>Helped design, develop and implement database architectures.</li>
+        <li>Part of team responsible for created complex functions, scripts, stored procedures and triggers to support application development.</li>
+        <li>Documented and presented flowcharts, diagrams, and other illustrations of data organization to management for database recommendations.</li>
+        <li>Oversaw and created periodic testing schedules on existing databases for functionality and accuracy.</li>
+		<li>Installed, fine-tuned, implemented and upgraded DBMS installations, while assisting with schema design and code review.</li>
+        <li>Provided guidance and support to application development team within organization.</li>
+        <li>Assisted with collating, preparing and presenting statistical information for recommendations and system improvements.</li>
+        <li>Provided IT support and resolved database issues as needed.</li>
+    </ul>
+    </div>  </div>
+  <div id="work5" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Tech Consultant - Remote</h1>
+    <div class="d-flex" style="color: gray;">
+    <h6 class="col-6 px-0">Life Shield & Armour Security Services</h6>
+    <h6 class="col-6 px-0 text-right">09/2019 - PRESENT</h6>
+    </div>
+    <p class="use"><em>SKILLS: BOOTSTRAP, DBMS, ABODE CS</em></p>
+    <div class="para py-0">
+      <ul class="lead px-3">
+        <li>Responsible for analyzing IT requirements within company and giving independent and objective advice on the use of IT.</li>
+        <li>Introduced ERP and BMS solution, Sage Enterprise Management, and trained staff on new system and best practices.</li>
+        <li>Revised existing systems and provided strategic advice and improvements on using technology to achieve company objectives.</li>
+        <li>Identified external client's system specifications, and defined software, hardware and other technology requirements to stakeholders.</li>
+        <li>Designed and delivered presentations and documentation of proposed solutions for new security systems.</li>
+        <li>Identified potential clients and presented business proposals and documentation.</li>
+        <li>Analyzed company records and determined organizational data management, security needs, and potential scalability.</li>
+        <li>Provided IT support and resolved technical issues.</li>
+    </ul>
+    </div>
+  </div>
+</section>
+<!-- End Side Navs -->
+<!-- End Work -->
+<!-- Projects -->
+<div class="main" id="projects">
+  <div class="col-10 offset-2" style="height: 100%;">
+  <div class="col-10 text-center" style="margin-top: 10rem"><h5 class="text-uppercase" style="letter-spacing: 3px; font-weight: bold;">Selected Work</h5></div>
+    <div class="col-10 d-flex justify-content-center align-items-center" style="height: 70%;">
+      <div class="owl-carousel owl-theme pt-5">
+        <div href="javascript:void(0)" onclick="projNav('project1')">
+          <div class="p-bgimage mx-auto" style="background-image: url('https://kaybee19.github.io/src/assets/images/apex-logo.png');"></div>
+          <text>
+          <h5 class="pt-3 text-center">Help Desk App</h5>
+          <p class="lead text-center">Commission-wide ticketing web application using Oracle Application Express</p>
+        </text>
+        </div>
+        <div href="javascript:void(0)" onclick="projNav('project2')">
+          <div class="p-bgimage mx-auto" style="background-image: url('https://kaybee19.github.io/src/assets/images/balloticslogo.png');"></div>
+          <text>
+          <h5 class="pt-3 text-center">Ballotics App</h5>
+          <p class="lead text-center">Microblogging and social networking application focused on politics</p>
+        </text>
+        </div>
+        <div href="javascript:void(0)" onclick="projNav('project3')">
+          <div class="p-bgimage mx-auto" style="background-color: black; background-image: url('https://kaybee19.github.io/src/assets/images/hk_logo3_alt.png');"></div>
+          <text>
+          <h5 class="pt-3 text-center">Hassan + King</h5>
+          <p class="lead text-center">Web design for a real estate agency to show their location and services.</p>
+        </text>
+        </div>
+        <div href="javascript:void(0)" onclick="projNav('project4')">
+          <div class="p-bgimage mx-auto" style="background-color: rgba(255,0,0,.1); background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gleague-name-white.PNG'); background-size: 100%;"></div>
+          <text>
+          <h5 class="pt-3 text-center">G-League</h5>
+          <p class="lead text-center">Responsive website for a gaming company to show their games and events.</p>
+        </text>
+        </div>
+        <div href="javascript:void(0)" onclick="projNav('project5')">
+          <div class="p-bgimage mx-auto" style="background-image: url('https://kaybee19.github.io/src/assets/images/hk_logo3.png');"></div>
+          <text>
+          <h5 class="pt-3 text-center">Fantasy Football App</h5>
+          <p class="lead text-center">Personal fantasy football web application currently under development.</p>
+        </text>
+        </div>
+      </div>      
+    </div>
+  </div>
+</div>
+<!-- Side Navs -->
+<section id="side-project" style="color: gray;">
+  <div id="project1" class="sidenav overflow-auto" style="padding: 0!important; background-color: white;">
+  <div class="top-pad" style="height: 100%;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Help Desk Web Application</h1>
+    <div class="proj-top" style="height: 100%;">
+    <div class="d-flex" style="color: gray; padding-right: 2rem;">
+      <div class="title">
+        <text><h6>Role</h6>
+        <p class="small">Lead Developer</p></text>
+      </div>
+      <div class="title">
+        <text><h6>Date</h6>
+        <p class="small">MAY - OCT 2017</p></text>
+      </div>
+      <div>
+        <text><h6>Overview</h6>
+        <p class="small">Ticketing web application using Oracle APEX</p></text>
+      </div>
+    </div>
+      <div class="col-12 proj-img sec-img1"></div>
+    </div>
+    </div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">01</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">CONCEPT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Commission was in need of a better method of troubleshooting and documenting technical issues to replace archaic pen and paper. Since there were existing Oracle solutions for payments and CRM, we proposed to develop another solution using a suitable Oracle platform.</p>
+      </div>
+    </div>
+      <div class="col-12 mx-0 px-0 proj-img sec-img2"></div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">02</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">DEVELOPMENT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Since Oracle APEX is a low-code development platform, we focused less on aesthetics and heavily on functionality. IT competency within the commission is low, so a creating simple application with ease of use was the main objective.</p>
+      </div>
+    </div>
+    <div class="row py-0 mx-0 px-0" style="height: 100%;">
+      <div class="col-12 proj-img sec-img3"></div>
+      <div class="col-12 proj-img sec-img4"></div>
+    </div>
+  </div>
+
+  <div id="project2" class="sidenav overflow-auto" style="padding: 0!important; background-color: white;">
+  <div class="top-pad" style="height: 100%;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Ballotics App</h1>
+    <div class="proj-top" style="height: 100%;">
+    <div class="d-flex" style="color: gray; padding-right: 2rem;">
+      <div class="title">
+        <text><h6>Role</h6>
+        <p class="small">Database Developer</p></text>
+      </div>
+      <div class="title">
+        <text><h6>Date</h6>
+        <p class="small">MAY - OCT -2017</p></text>
+      </div>
+      <div>
+        <text><h6>Overview</h6>
+        <p class="small">Social hub for people interested in politics (currently under development)</p></text>
+      </div>
+    </div>
+      <div class="col-12 proj-img ballotics-img1"></div>
+    </div>
+    </div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">01</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">CONCEPT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Clients were looking for branding and a responsive website to showcase their services, locations, and some of their selected property. We decided on a simple yet powerful color scheme, and photographed quality images to present an elegant atmosphere.</p>
+      </div>
+    </div>
+      <div class="col-12 mx-0 px-0 proj-img ballotics-img2"></div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">02</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">DEVELOPMENT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Regarding coding, we did not reinvent the wheel and utilized Bootstrap. Clients were satisfied with a minimalist website that only showcases their best property, so CMS was not used.</p>
+      </div>
+    </div>
+    <div class="row py-0 mx-0 px-0" style="height: 100%;">
+      <div class="col-12 proj-img ballotics-img3"></div>
+      <div class="col-12 proj-img ballotics-img4"></div>
+    </div>
+  </div>
+
+
+  <div id="project3" class="sidenav overflow-auto" style="padding: 0!important; background-color: white;">
+  <div class="top-pad" style="height: 100%;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Hassan + King Real Estate Consulting</h1>
+    <div class="proj-top" style="height: 100%;">
+    <div class="d-flex" style="color: gray; padding-right: 2rem;">
+      <div class="title">
+        <text><h6>Role</h6>
+        <p class="small">Developer</p></text>
+      </div>
+      <div class="title">
+        <text><h6>Date</h6>
+        <p class="small">AUG 2019</p></text>
+      </div>
+      <div>
+        <text><h6>Overview</h6>
+        <p class="small">Real Estate website for clients in Abuja, Nigeria</p></text>
+      </div>
+    </div>
+      <div class="col-12 proj-img hk-img1"></div>
+    </div>
+    </div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">01</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">CONCEPT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Clients were looking for branding and a responsive website to showcase their services, locations, and some of their selected property. We decided on a simple yet powerful color scheme, and photographed quality images to present an elegant atmosphere.</p>
+      </div>
+    </div>
+      <div class="col-12 mx-0 px-0 proj-img hk-img2"></div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">02</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">DEVELOPMENT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Regarding coding, we did not reinvent the wheel and utilized Bootstrap. Clients were satisfied with a minimalist website that only showcases their best property, so CMS was not used.</p>
+      </div>
+    </div>
+    <div class="row py-0 mx-0 px-0" style="height: 100%;">
+      <div class="col-12 proj-img hk-img3"></div>
+      <div class="col-12 proj-img hk-img4"></div>
+      <div class="col-12 proj-img hk-img5"></div>
+    </div>
+  </div>
+
+  <div id="project4" class="sidenav overflow-auto" style="padding: 0!important; background-color: white;">
+  <div class="top-pad" style="height: 100%;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">The G-League</h1>
+    <div class="proj-top" style="height: 100%;">
+    <div class="d-flex" style="color: gray; padding-right: 2rem;">
+      <div class="title">
+        <text><h6>Role</h6>
+        <p class="small">Developer</p></text>
+      </div>
+      <div class="title">
+        <text><h6>Date</h6>
+        <p class="small">OCT 2019</p></text>
+      </div>
+      <div>
+        <text><h6>Overview</h6>
+        <p class="small">Gaming website for e-sports organization in Abuja</p></text>
+      </div>
+    </div>
+      <div class="col-12 proj-img gl-img1"></div>
+    </div>
+    </div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">01</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">CONCEPT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Since the organization has a very young target audience, we tried to create a stunning and visual atmosphere with a sporty feeling. The color scheme was based of the company logo, and decided on developing a single page website based on the content.</p>
+      </div>
+    </div>
+      <div class="col-12 mx-0 px-0 proj-img gl-img2"></div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">02</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">DEVELOPMENT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Clients desired a lot of sliding images and content, so a pre-loader animation was written and added on page load. Website was developed with Bootstrap and clients were satisfied with a static website.</p>
+      </div>
+    </div>
+    <div class="row py-0 mx-0 px-0" style="height: 100%;">
+      <div class="col-12 proj-img gl-img3"></div>
+      <div class="col-12 proj-img gl-img4"></div>
+      <div class="col-12 proj-img gl-img5"></div>
+    </div>
+  </div>
+
+  <div id="project5" class="sidenav overflow-auto" style="padding: 0!important; background-color: white;">
+  <div class="top-pad" style="height: 100%;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h1 class="pb-0">Fantasy Football Application</h1>
+    <div class="proj-top" style="height: 100%;">
+    <div class="d-flex" style="color: gray; padding-right: 2rem;">
+      <div class="title">
+        <text><h6>Role</h6>
+        <p class="small">Backend Developer</p></text>
+      </div>
+      <div class="title">
+        <text><h6>Date</h6>
+        <p class="small">NOV 2019 - PRESENT</p></text>
+      </div>
+      <div>
+        <text><h6>Overview</h6>
+        <p class="small">Fantasy sports web application (currently under development)</p></text>
+      </div>
+    </div>
+      <div class="col-12 proj-img fl-img1"></div>
+    </div>
+    </div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">01</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">CONCEPT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Personal project based off two passions of mine; football and gaming. Fantasy sports is one of the fastest growing industries in the world, and because of a lack of presence in Africa, I decided to develop an online fantasy league of my own.</p>
+      </div>
+    </div>
+      <div class="col-12 mx-0 px-0 proj-img fl-img2"></div>
+    <div class="row px-0 mx-0">
+      <div class="col-1 offset-1 big d-flex align-items-center">
+        <p class="font-weight-bold" style="color: #a9081c;">02</p>
+      </div>
+      <div class="col-9 offset-1 col-lg-3 offset-lg-0 big d-flex align-items-center">
+        <p style="color: black;">DEVELOPMENT</p>
+      </div>
+      <div class="col-10 offset-1 col-lg-6 offset-lg-0 d-flex align-items-center">
+        <p class="small">Development team consists of 3 members; UI/UX designer, front-end developer, and back-end developer. Angular is being used for front-end, Node.Js for the back-end, and MySQL for database development.</p>
+      </div>
+    </div>
+    <div class="row py-0 mx-0 px-0" style="height: 100%;">
+      <div class="col-12 proj-img fl-img3"></div>
+      <div class="col-12 proj-img fl-img4"></div>
+      <div class="col-12 proj-img fl-img5"></div>
+    </div>
+  </div>
+
+</section>
+<!-- End Side Navs -->
+<!-- End Projects -->
+
+<div class="main" id="contact">
+  <div class="col-12" style="height: 100%;">
+  <div class="row justify-content-center justify-content-md-end" style="height: 100%;">
+    <div class="align-self-center text-center" id="cont-detail">
+    	<p style="letter-spacing: .1rem; margin: 0;">Kinshasa St, Zone 6
+			<br>Abuja, Nigeria
+			<br><br><a href="mailto:gafaikabir@yahoo.com">gafaikabir@yahoo.com</a>
+			<br><br><a href="tel:(+234)9078669414">(+234) 907 866 9414</a>
+		</p>
+		<div><button type="button" class="btn btn-secondary" style="background-color: #0a66c2;"><a href="https://www.linkedin.com/in/kabir-gafai-64868a100/" target="_blank" style="text-decoration: none;">LinkedIn</a></button></div>
+		<div><button type="button" class="btn btn-secondary" style="background-color: black;"><a href="https://github.com/kaybee19" target="_blank" style="text-decoration: none;">GitHub</a></button></div>
+		<div><button type="button" class="btn btn-secondary" style="background-color: #1666f8;">Behance</button></div>
+    </div>
+	<div class="col-12" id="map">
+	<div class="map-container">
+   	<script>
+      function initMap() {
+ 		var zone = {lat: 9.071861, lng: 7.454194};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 9.071861, lng: 7.454194},
+          zoom: 15,
+          styles: [
+		  {
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#212121"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.icon",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.text.stroke",
+		    "stylers": [
+		      {
+		        "color": "#212121"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.country",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.land_parcel",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.locality",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#bdbdbd"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.neighborhood",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.province",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "landscape.man_made",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "landscape.natural",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "landscape.natural.landcover",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "landscape.natural.terrain",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.attraction",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.business",
+		    "stylers": [
+		      {
+		        "saturation": 100
+		      },
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.medical",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#181818"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#616161"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "labels.text.stroke",
+		    "stylers": [
+		      {
+		        "color": "#1b1b1b"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.place_of_worship",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.school",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "elementType": "geometry.fill",
+		    "stylers": [
+		      {
+		        "color": "#2c2c2c"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#8a8a8a"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.arterial",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#373737"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.highway",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#3c3c3c"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.highway.controlled_access",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#4e4e4e"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.local",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#616161"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "transit",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#000000"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#3d3d3d"
+		      }
+		    ]
+		  }
+		]
+        });
+        var marker = new google.maps.Marker({position: zone, map: map});
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYGb5-sUP8bP2prIziK6n7KetKfhL0xw8&callback=initMap"
+    async defer></script>
+
+	</div>
+	</div>
+</div>
+</div>
+</div>
+<!-- End Contact -->
+</section>
+<!-- End -->
+    <script src="https://kaybee19.github.io/src/openNav.js"></script>
+    <script src="https://kaybee19.github.io/src/chngNav.js"></script>
+    <script src="https://kaybee19.github.io/src/progress.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kaybee19.github.io/src/assets/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="https://kaybee19.github.io/src/owl-port.min.js"></script>
+  </body>
+</html>

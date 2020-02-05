@@ -1,0 +1,1240 @@
+*
+
+@font-face {
+  }
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('https://kaybee19.github.io/src/assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('https://kaybee19.github.io/src/assets/fonts/OpenSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Candara';
+	src: url('https://kaybee19.github.io/src/assets/fonts/Candara.ttf');
+}
+
+body	{
+	font-family: 'Open Sans';
+	overflow: hidden;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: white;
+	background-color: black;
+	height: 100%;
+}
+
+
+/*-- Top --*/
+
+#top 	{
+	background-color: black;
+	height: 100vh;
+}
+
+.main 	{
+	position: absolute;
+	left: -100%;
+	width: 100vw;
+	height: 100vh;
+	transform: scale(.85);
+	background-color: #070707;
+}
+
+.lead 	{
+	font-size: .9rem;
+}
+
+.display-4 {
+	margin-bottom: 3rem;
+}
+
+
+/*-- SideNav --*/
+
+.sidenav {
+	height: 100%;
+	width: 85%;
+	position: fixed;
+	z-index: 1;
+	left: 100%;
+	background-color: #f3f4f6;
+	overflow: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	padding: 2rem;
+}
+
+.sidenav h1 {
+	color: #a9081c;
+	font-size: 2rem;
+	font-family: 'Candara'!important;
+	font-weight: bolder;
+	margin-top: 2.5rem;
+	padding: 1rem 0rem;
+}
+
+.sidenav p 	{
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+.sidenav .closebtn {
+	color: #818181;
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	font-size: 5rem;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav .closebtn:hover {
+	color: black;
+}
+
+
+/*-- Nav --*/
+
+#nav	{
+	background-color: black;
+	padding: 0rem;
+	z-index: 1;
+	height: 10vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+#nav img 	{
+	width: 40px;
+	margin-left: .5rem;
+}
+
+.navbar 	{
+	padding: 1.5rem 0rem 1.5rem;
+}
+
+#header 	{
+	width: 100%;
+	margin-top: 10rem;
+	margin-bottom: 2.5rem;
+}
+
+#header i 	{
+	color: #a9081c;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+#header .active i	{
+	color: white!important;
+}
+
+#header a 	{
+	background-color: rgba(0, 0, 0, .95);
+}
+
+#header i:hover	{
+	color: white!important;
+}
+
+#footer 	{
+	display: none!important;
+}
+
+#footer a 	{
+	font-weight: bold;
+	color: #716b6d;
+	margin-bottom: 1.5rem;
+	font-size: 1.25rem;
+}
+
+#footer a:hover 	{
+	color: white;
+}
+
+.nav 	{
+	flex-direction: row!important;
+}
+
+#nav button 	{
+	color: white;
+}
+
+#nav button:active, #nav button:focus 	{
+	color: #a9081c;
+}
+
+#nav button:focus {
+    outline: none;
+}
+
+
+/*-- Hero --*/
+
+#img1 	{
+	height: 70%;
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#img1:before 	{
+	content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    opacity: .015;
+	background-image: url('https://kaybee19.github.io/src/assets/images/kaybee_logo.png');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#img1 .display-3 	{
+	font-size: 4rem;
+	margin-bottom: 1.5rem;
+}
+
+#img1 .lead 	{
+	letter-spacing: .1rem;
+	margin-bottom: 1.5rem;
+}
+
+.btn-outline-danger 	{
+	border-color: #a9081c;
+	margin-bottom: 5rem;
+	margin-top: 1rem;
+	padding: .25rem 0rem .25rem;
+	transform: translateX(25%);
+}
+
+.btn-outline-danger:hover 	{
+	background-color: #a9081c;
+	border-color: #a9081c;
+}
+
+.btn-shift	{
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1rem;
+	transform: translateX(-25%);
+}
+
+#hero .col-4 	{
+	opacity: .2;
+}
+
+#hero .col-4:hover 	{
+	opacity: 1;
+}
+
+#hero .b-top	{
+	border-top: 5px solid transparent;
+	width: 4rem;
+	opacity: .75rem;
+}
+
+#hero .col-4:hover > .b-top	{
+	border-top: 5px solid #a9081c;;
+}
+
+h4 	{
+	margin: 2rem 0 1rem;
+}
+
+#hero-btm .row 	{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#hero-btm h4 	{
+	font-size: .8rem;
+}
+
+#hero-btm p 	{
+	display: none;
+}
+
+#hero-btm .btn-danger 	{
+	font-size: .7rem;
+	padding: .5rem .5rem;
+	background-color: #a9081c;
+	margin-top: 1rem;
+	border-color: transparent;
+	transform: translate(-1.5%,-3%);
+}
+
+#hero-btm .btn-danger:hover 	{
+	background-color: #dc3545d1;
+	transform: translate(0%,0%);
+}
+
+#side-hero .font h1 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/h_open.png');
+	background-size: 6%;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#side-hero .font h1:before {
+    content: ' ';
+    position: absolute;
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+	background-image: url('https://kaybee19.github.io/src/assets/images/h_close.png');
+	background-size: 6%;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#side-hero .lead {
+	font-size: .7rem;
+}
+
+#side-hero .para {
+	margin-top: 3rem;
+	padding: 2rem 0rem;
+	color: #818181;
+}
+
+#side-hero .para 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/p_open.png');
+	background-size: 6%;
+	background-position: top left;
+	background-repeat: no-repeat;
+	pointer-events: none; 
+}
+
+#side-hero .para:before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+	background-image: url('https://kaybee19.github.io/src/assets/images/p_close.png');
+	background-size: 6%;
+	background-position: 0% 60%;
+	background-repeat: no-repeat;
+}
+
+/*-- Fix for About side-hero --*/
+
+#about {
+	overflow-y: scroll;
+}
+
+#about .para:before {
+	background-position: 0% 90%;
+}
+
+#educ p 	{
+	font-size: .9rem;
+}
+
+/*-- Skills --*/
+
+#skills 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/skills_bg.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 7.5rem;
+	overflow-y: scroll;
+}
+
+#skills .bars-wrap 	{
+	margin-top: 2.5rem;
+}
+
+#skills .bar 	{
+	background-color: #716b6d;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+#skills .bar-cont 	{
+	margin-right: .75rem;
+}
+
+#skills .fill 	{
+	background-color: #aa080d;
+}
+
+#skills .tag 	{
+	background-color: #f52640;
+	text-align: center;
+	width: 7.5rem;
+	text-transform: uppercase;
+}
+
+
+/*-- Work --*/
+
+#work 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work-hr.png');
+	background-position: center;
+	background-size: contain;
+	width: 100vw!important;
+	height: 100%;
+	padding-top: 3.5rem;
+	overflow: auto;
+}
+
+#work .btn 	{
+	margin-top: 2rem;
+}
+
+#work .bg-color 	{
+	background-color: gray;
+}
+
+#work .box	{
+	background-color: #f7f7f7;
+	padding: 2.5rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	color: #202020;
+	font-size: .8rem;
+	line-height: 1.25rem;
+	transform: translate(-1.5%,-3%);
+	cursor: pointer;
+}
+
+#work .box:active	{
+	transform: translate(-0.75%,-1.5%);
+}
+
+#work .side-hr 	{
+	border-top: .25rem solid;
+	margin-left: 0;
+	margin-top: 12rem;
+	width: 4.35%;
+	display: none;
+}
+
+#work .side1-hr 	{
+	position: absolute;
+	border-top: .25rem solid;
+	left: -9.75%;
+	margin-top: 12rem;
+	width: 9%;
+	display: none;
+}
+
+#work h6 	{
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+}
+
+#work .small 	{
+	color: #b2b2b2;
+	margin: .5rem 0rem 1rem!important;
+	font-size: .7rem;
+	letter-spacing: .1rem;
+}
+
+#side-work .sidenav	{
+	overflow-y: scroll;
+}
+
+#side-work h6 	{
+	font-size: .7rem;
+	color: black;
+}
+
+#side-work .para {
+	margin-top: 2rem;
+	padding: 2rem 0rem;
+	color: #818181;
+}
+
+#side-work ul 	{
+	font-size: .75rem;
+	line-height: 1.25rem;
+}
+
+#side-work li 	{
+	padding-bottom: .25rem;
+}
+
+#side-work .use 	{
+	font-size: 'Candara';
+	font-size: .8rem;
+	color: gray;
+	padding-top: 2rem;
+}
+
+
+/*-- Projects --*/
+
+#projects h5 	{
+	font-size: 1.1rem;
+	margin: 2rem 0 1rem;
+	text-transform: uppercase;
+}
+
+.owl-carousel, .owl-stage-outer, .owl-stage 	{
+	height: 100%;
+}
+
+#projects .owl-item	{
+	padding: 0rem!important;
+}
+
+#projects .owl-item p	{
+	opacity: 0;
+}
+
+#projects .active	{
+	opacity: 1;
+	-webkit-transition: padding 0s;
+	-webkit-transition-delay: padding 0s;
+	pointer-events: none;
+}
+
+#projects .center	{
+	height: 100%!important;
+	padding: 0rem!important;
+	transition: .5s;
+	transition-delay: .5s;
+	-webkit-transition: .5s;
+	-webkit-transition-delay: .5s;
+	cursor: pointer;
+	pointer-events: all;
+}
+
+#projects .p-bgimage 	{
+	height: 28vh!important;
+	width: 28vh!important;
+	border-radius: 50%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+
+#projects .center .p-bgimage	{
+	height: 100%;
+	width: 100%;
+	transition: .5s;
+	transition-delay: .5s;
+	-webkit-transition: .5s;
+	-webkit-transition-delay: .5s;
+}
+
+#projects .center p 	{
+	opacity: 1;
+	transition: 1s;
+	transition-delay: 1s;
+}
+
+.owl-next	{
+	position: absolute;
+	left: 110%;
+	top: 40%;
+	transform: scale(5);
+}
+
+.owl-prev	{
+	position: absolute;
+	right: 110%;
+	top: 40%;
+	transform: scale(5);
+}
+
+.owl-prev:hover, .owl-next:hover 	{
+	background-color: transparent!important;
+	color: gray!important;
+	border: none;
+}
+
+.owl-carousel button 	{
+	outline: none!important;
+}
+
+#side-project .sidenav 	{
+	width: 100%!important;
+}
+
+#side-project .top-pad		{
+	background-color: #f3f4f6;
+	padding-top: 60px;
+	padding: 5rem 2rem 5rem;
+}
+
+#side-project .row 	{
+	padding: 5rem 0rem 2.5rem;
+	background-color: white;
+}
+
+#side-project .row .small	{
+	padding-top: 2.5rem;
+}
+
+#side-project h1 {
+	margin-top: 0;
+	margin-bottom: 2.5rem;
+}
+
+#side-project .proj-top .d-flex 	{
+	flex-wrap: wrap;
+}
+
+#side-project .title 	{
+	width: 100%;
+}
+
+#side-project h6 {
+	font-size: 1rem;
+	letter-spacing: .25rem;
+	margin: 0rem 0 .5rem;
+	color: black;
+	text-transform: uppercase;
+}
+
+#side-project .small {
+	font-size: .85rem;
+}
+
+#side-project .proj-img 	{
+	margin-top: 5rem;
+	background-size: contain;
+	background-position: 50% 20%;
+	background-repeat: no-repeat;
+}
+
+.sec-img1 	{
+	height: 75%;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj1.PNG');
+	margin-top: 1rem!important;
+}
+
+.sec-img2 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj2.png');
+	height: 40%!important;	
+	margin-top: 0!important;
+	background-color: white;
+}
+
+.sec-img3 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj3.png');
+	background-color: white;
+}
+
+.sec-img4 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj4.png');
+	background-color: white;
+	margin-bottom: 5rem;
+}
+
+.fl-img1 	{
+	height: 75%;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fleaguemock.PNG');
+	margin-top: 1rem!important;
+}
+
+.fl-img2 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fl-design.png');
+	height: 40%!important;	
+	margin-top: 1rem!important;
+}
+
+.fl-img3 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img3.png');
+}
+
+.fl-img4 	{
+	display: none;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img4.png');
+}
+
+.fl-img5 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img5.png');
+	margin-bottom: 5rem;
+}
+
+.hk-img1 	{
+	height: 75%;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img.PNG');
+	margin-top: 1rem!important;
+}
+
+.hk-img2 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-mockup.png');
+	height: 40%!important;	
+	margin-top: 0!important;
+}
+
+.hk-img3 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img3.PNG');
+}
+
+.hk-img4 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img4.PNG');
+	margin-bottom: 5rem;
+}
+
+.hk-img5 	{
+	display: none;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img5.PNG');
+	margin-bottom: 5rem;
+}
+
+.gl-img1 	{
+	height: 75%;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gleague-main.png');
+	margin-top: 1rem!important;
+}
+
+.gl-img2 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gleague-mash.png');
+	height: 40%!important;	
+	margin-top: 1rem!important;
+}
+
+.gl-img3 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img3.png');
+}
+
+.gl-img4 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img4.png');
+	margin-bottom: 5rem;
+}
+
+.gl-img5 	{
+ 	display: none;
+ 	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img5.png');
+	margin-bottom: 5rem;
+}
+
+.ballotics-img1 	{
+	height: 75%;
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img1.jpg');
+	margin-top: 1rem!important;
+}
+
+.ballotics-img2 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-mock.png');
+	height: 40%!important;	
+	margin-top: 1rem!important;
+}
+
+.ballotics-img3 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img3.jpg');
+}
+
+.ballotics-img4 	{
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img4.jpg');
+	margin-bottom: 5rem;
+}
+
+#side-project .proj-top 	{
+	margin-bottom: 3rem;
+}
+
+#side-project .big p	{
+	font-size: 2rem;
+}
+
+
+/*-- Contact --*/
+
+#contact 	{
+	overflow-y: scroll;
+}
+
+#cont-detail 	{
+	position: relative;
+	z-index: 10;
+	width: 75%!important;
+	background-color: #111111;
+	padding: 3rem;
+	margin: 10rem 0rem 5rem;
+	width: 80%;
+	font-weight: bolder;
+	border-radius: 1.5%;
+	box-shadow: -5px 5px 40px black;
+}
+
+#cont-detail a 	{
+	text-decoration: none;
+	color: white;
+}
+
+#cont-detail a:hover 	{
+	text-decoration: underline;
+}
+
+#cont-detail button 	{
+	background-color: #716b6d;
+	border: 0;
+	border-radius: 0;
+	margin-top: 1.5rem;
+	padding: 1rem 2rem;
+	font-weight: bolder;
+}
+
+#cont-detail button:hover 	{
+	opacity: .75;
+}
+
+#map 	{
+	height: 100%;
+}
+
+.map-container 	{
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+
+.map-container iframe 	{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.gmnoprint {
+	display: none;
+}
+
+
+/*-- Media Queries --*/
+
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+
+@media (max-width: 359px) {
+
+#screen 	{
+	z-index: 1000;
+	display: block;
+	opacity: 1;
+	background-image: url('https://kaybee19.github.io/src/assets/images/sm-screen.PNG');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #070707;
+	height: 100vh!important;
+	width: 100vw!important;
+}
+}
+
+
+/*-- Long devices (long landscape phones, 370px and up) --*/
+
+@media (min-width: 375px) and (min-height: 800px) {
+
+#about {
+	overflow-y: hidden;
+}
+
+#side-hero .para:before {
+	background-position: 0% 70%;
+}
+
+#projects .p-bgimage {
+    height: 22.5vh!important;
+    width: 22.5vh!important;
+}
+}
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+
+@media (min-width: 400px) {
+
+/*-- Fix for About side-hero --*/
+
+#about {
+	overflow-y: hidden;
+}
+
+#side-hero .para:before {
+	background-position: 0% 70%;
+}
+
+#side-project .proj-img {
+    background-position: center;
+}
+}
+
+
+/*-- Medium horizontal devices (660px and up) --*/
+
+@media (min-width: 560px) and (max-height: 500px) 	{
+
+#screen 	{
+	position: fixed;
+	z-index: 1000;
+	display: block;
+	opacity: 1;
+	background-image: url('https://kaybee19.github.io/src/assets/images/phone-view.PNG');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #070707;
+	height: 100vh!important;
+	width: 100vw!important;
+}
+
+#top  	{
+	display: none;
+}
+}
+
+
+/*-- Medium devices (tablets, 750px and up) --*/
+
+@media (min-width: 765px) {
+
+
+.sidenav {
+	width: 67%;
+}
+
+.sidenav h1 {
+	font-size: 3.5rem;
+	margin-top: 5rem;
+	padding: 2rem 0rem;
+}
+
+#nav	{
+	height: 7.5vh;
+}
+
+#side-hero .lead {
+	font-size: .9rem;
+}
+
+#img1 	{
+	height: 65%;
+	background-image: url('https://kaybee19.github.io/src/assets/images/kaybee1.png');
+}
+
+#img1:before 	{
+	display: none;
+}
+
+#hero-btm p 	{
+	display: block;
+	font-size: .85rem;
+}
+
+#hero-btm h4 	{
+	font-size: 1.25rem;
+}
+
+#side-hero .font h1:before {
+    margin-top: 5.5rem;
+}
+
+#side-hero .para {
+	margin-top: 5rem;
+}
+
+#side-hero .para:before {
+    height: 100%;
+	background-position: left;
+}
+
+#side-hero .font h1, #side-hero .font h1:before, #side-hero .para , #side-hero .para:before {
+	background-size: 3.3%;
+}
+
+#side-work h6 	{
+	font-size: 1rem;
+}
+
+#side-work ul 	{
+	font-size: .9rem;
+	line-height: 1.5rem;
+}
+
+.sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 	{
+	height: 50%!important;
+}
+
+#contact .lead 	{
+	font-size: .9rem;
+}
+
+#contact .form-control 	{
+	font-size: .8rem;
+	padding: 1.5rem;
+	padding-left: .25rem;
+	background-color: transparent;
+	color: white;
+	letter-spacing: .25rem;
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+#cont-detail 	{
+	margin-top: 0rem;
+	position: absolute;
+	width: 40%!important;
+	margin-left: -1rem!important;
+}
+}
+
+
+/*-- Large devices (desktops, 992px and up) --*/
+
+@media (min-width: 992px) {
+
+.sidenav {
+	padding: 3rem;
+}
+
+#nav	{
+	background-color: black;
+	padding: 1.5rem 0rem 1.5rem;
+	height: 100vh;
+	width: auto;
+	display: inline;
+}
+
+#nav img 	{
+	width: 50px;
+}
+
+.nav 	{
+	flex-direction: column!important;
+}
+
+#header 	{
+	width: auto;
+	height: 50%;
+}
+
+#footer 	{
+	display: flex!important;
+}
+
+#work .side-hr, #work .side1-hr 	{
+	display: block;
+}
+
+#side-project .proj-top .d-flex 	{
+	flex-wrap: nowrap;
+}
+
+#side-project .title 	{
+	width: 15%;
+}
+
+.owl-carousel 	{
+	margin-top: 15rem;
+}
+
+.sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 {
+    height: 80%!important;
+}
+
+#side-project .proj-img 	{
+	height: 75%;
+}
+
+.hk-img4, .gl-img4 	{
+	margin-bottom: 0rem;
+}
+
+.hk-img5, .gl-img5, .fl-img4 	{
+	display: block;
+}
+
+#cont-detail 	{
+	width: 30%!important;
+}
+}
+
+
+/*-- Wide devices (large tablets, 992px and up) --*/
+
+@media (min-width: 992px) and (min-height: 992px) {
+
+#projects .p-bgimage {
+    height: 17vh!important;
+    width: 17vh!important;
+}
+
+#projects .center .p-bgimage	{
+	height: 20vh!important;
+	width: 20vh!important;
+}
+
+.sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 	{
+	height: 50%!important;
+}
+
+#side-project .proj-img 	{
+	height: 50%;
+}
+}
+
+
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+
+@media (min-width: 1200px) {
+
+.sidenav {
+	width: 50%;
+	padding: 5rem;
+}
+
+#img1 .display-3 	{
+	font-size: 4.5rem;
+	margin-bottom: 1rem;
+}
+
+#img1 .lead 	{
+	font-size: .9rem;
+	margin-bottom: 1rem;
+}
+
+.btn-outline-danger 	{
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+
+#hero-btm .row 	{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+#hero-btm h4 	{
+	font-size: 1.5rem;
+}
+
+#hero-btm .btn-danger 	{
+	font-size: 1rem;
+	padding: .5rem;
+}
+
+#educ p 	{
+	font-size: 1rem;
+}
+
+#skills 	{
+	padding-top: 0rem;
+	overflow-y: hidden;
+}
+
+#skills .bars-wrap 	{
+	margin-top: 0rem;
+}
+
+#work 	{
+	margin-left: 1.5rem;
+	padding-top: 0;
+}
+
+#side-work .sidenav	{
+	overflow-y: hidden;
+}
+
+#side-project .sidenav 	{
+	width: 75%!important;
+}
+
+#projects h5 	{
+	font-size: 1.25rem;
+}
+
+#projects .owl-item	{
+	padding: 3rem!important;
+}
+
+#projects .center .p-bgimage	{
+	height: 33vh!important;
+	width: 33vh!important;
+}
+
+#projects .center	{
+	padding: 0rem!important;
+}
+
+#side-project .top-pad		{
+	padding: 5rem;
+}
+
+#side-project h1 {
+	margin-bottom: 0rem;
+}
+
+#side-project h6 {
+	font-size: 1.25rem;
+	margin: 2.5rem 0 .75rem;
+}
+
+#side-project .proj-img 	{
+	background-position: center;
+}
+
+#side-project .row .small	{
+	padding-top: 0rem;
+}
+
+#side-project .proj-img 	{
+	height: 75%;
+}
+
+.sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 	{
+	height: 100%!important;
+}
+
+#contact 	{
+	padding-top: 0rem;
+	overflow-y: hidden;
+}
+
+#cont-detail 	{
+	width: 20%!important;
+	margin-left: -5rem!important;
+}
+}
+
+
+/*-- Fix for large tab and computer screens --*/
+
+@media (min-width: 1300px) and (min-height: 992px) {
+
+.owl-carousel 	{
+	margin-top: 15rem;
+}
+
+#projects .center .p-bgimage {
+    height: 24vh!important;
+    width: 24vh!important;
+}
+
+#projects .p-bgimage {
+    height: 17vh!important;
+    width: 17vh!important;
+}
+
+.sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 {
+    height: 70%!important;
+}
+
+#side-project .proj-img {
+    margin-top: 0rem;
+}
+}
+
