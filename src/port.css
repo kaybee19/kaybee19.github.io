@@ -615,7 +615,7 @@ h4 	{
 .sec-img1 	{
 	height: 75%;
 	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj1.PNG');
-	margin-top: 1rem!important;
+	margin-top: 0rem!important;
 }
 
 .sec-img2 	{
@@ -639,7 +639,7 @@ h4 	{
 .fl-img1 	{
 	height: 75%;
 	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fleaguemock.PNG');
-	margin-top: 1rem!important;
+	margin-top: 0rem!important;
 }
 
 .fl-img2 	{
@@ -665,7 +665,7 @@ h4 	{
 .hk-img1 	{
 	height: 75%;
 	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img.PNG');
-	margin-top: 1rem!important;
+	margin-top: 0rem!important;
 }
 
 .hk-img2 	{
@@ -692,7 +692,7 @@ h4 	{
 .gl-img1 	{
 	height: 75%;
 	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gleague-main.png');
-	margin-top: 1rem!important;
+	margin-top: 0rem!important;
 }
 
 .gl-img2 	{
@@ -719,7 +719,7 @@ h4 	{
 .ballotics-img1 	{
 	height: 75%;
 	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img1.jpg');
-	margin-top: 1rem!important;
+	margin-top: 0rem!important;
 }
 
 .ballotics-img2 	{
@@ -968,6 +968,10 @@ h4 	{
 
 #side-project .small {
 	font-size: .85rem;
+}
+
+.sec-img1, .fl-img1, .hk-img1, .gl-img1, .ballotics-img1 	{
+	margin-top: 1rem!important;
 }
 
 .sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 	{
