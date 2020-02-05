@@ -72,7 +72,7 @@ body	{
 
 .sidenav h1 {
 	color: #a9081c;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-family: 'Candara'!important;
 	font-weight: bolder;
 	margin-top: 2.5rem;
@@ -89,7 +89,7 @@ body	{
 	position: absolute;
 	top: 2rem;
 	right: 2rem;
-	font-size: 5rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -367,9 +367,13 @@ h4 	{
 	background-color: #f52640;
 	text-align: center;
 	width: 5rem;
-	font-size: .65rem;
 	text-transform: uppercase;
 }
+
+#skills .tag, #skills span {
+	font-size: .65rem;
+}
+
 
 
 /*-- Work --*/
@@ -598,7 +602,7 @@ h4 	{
 }
 
 #side-project .small {
-	font-size: .85rem;
+	font-size: .7rem;
 }
 
 #side-project .proj-img 	{
@@ -903,6 +907,10 @@ h4 	{
 	padding: 2rem 0rem;
 }
 
+.sidenav .closebtn {
+	font-size: 5rem;
+}
+
 #nav	{
 	height: 7.5vh;
 }
@@ -956,6 +964,10 @@ h4 	{
 #side-work ul 	{
 	font-size: .9rem;
 	line-height: 1.5rem;
+}
+
+#side-project .small {
+	font-size: .85rem;
 }
 
 .sec-img2, .fl-img2, .hk-img2, .gl-img2, .ballotics-img2 	{
@@ -1016,8 +1028,12 @@ h4 	{
 
 #skills .tag 	{
 	width: 7.5rem;
+}
+
+#skills .tag, #skills span {
 	font-size: 1rem;
 }
+
 
 #work .side-hr, #work .side1-hr 	{
 	display: block;
