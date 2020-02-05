@@ -568,7 +568,7 @@ h4 	{
 #side-project .top-pad		{
 	background-color: #f3f4f6;
 	padding-top: 60px;
-	padding: 2rem 2rem 4rem;
+	padding: 3rem 2rem 4rem;
 }
 
 #side-project .row 	{
@@ -619,7 +619,7 @@ h4 	{
 }
 
 .sec-img2 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj2.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj2.jpg');
 	height: 40%!important;	
 	margin-top: 0!important;
 	background-color: white;
@@ -631,61 +631,61 @@ h4 	{
 }
 
 .sec-img4 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj4.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/sec/sec-proj4.jpg');
 	background-color: white;
 	margin-bottom: 5rem;
 }
 
 .fl-img1 	{
 	height: 75%;
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fleaguemock.PNG');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fleaguemock.jpg');
 	margin-top: 0rem!important;
 }
 
 .fl-img2 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fl-design.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fl-design.jpg');
 	height: 40%!important;	
 	margin-top: 1rem!important;
 }
 
 .fl-img3 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img3.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img3.jpg');
 }
 
 .fl-img4 	{
 	display: none;
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img4.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img4.jpg');
 }
 
 .fl-img5 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img5.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/fl-app/fpl-img5.jpg');
 	margin-bottom: 5rem;
 }
 
 .hk-img1 	{
 	height: 75%;
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img.PNG');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img.jpg');
 	margin-top: 0rem!important;
 }
 
 .hk-img2 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-mockup.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-mockup.jpg');
 	height: 40%!important;	
 	margin-top: 0!important;
 }
 
 .hk-img3 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img3.PNG');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img3.jpg');
 }
 
 .hk-img4 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img4.PNG');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img4.jpg');
 	margin-bottom: 5rem;
 }
 
 .hk-img5 	{
 	display: none;
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img5.PNG');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/hk/hk-img5.png');
 	margin-bottom: 5rem;
 }
 
@@ -702,11 +702,11 @@ h4 	{
 }
 
 .gl-img3 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img3.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img3.jpg');
 }
 
 .gl-img4 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img4.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/gleague/gl-img4.jpg');
 	margin-bottom: 5rem;
 }
 
@@ -723,17 +723,17 @@ h4 	{
 }
 
 .ballotics-img2 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-mock.png');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-mock.jpg');
 	height: 40%!important;	
 	margin-top: 1rem!important;
 }
 
 .ballotics-img3 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img3.jpg');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img3.png');
 }
 
 .ballotics-img4 	{
-	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img4.jpg');
+	background-image: url('https://kaybee19.github.io/src/assets/images/work/ballotics/ballotics-img4.png');
 	margin-bottom: 5rem;
 }
 
