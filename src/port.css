@@ -383,7 +383,7 @@ h4 	{
 	background-position: center;
 	background-size: contain;
 	width: 100vw!important;
-	height: 125%;
+	height: 100vh;
 	padding-top: 3.5rem;
 	overflow: auto;
 }
@@ -841,10 +841,6 @@ h4 	{
 /*-- Long devices (long landscape phones, 370px and up) --*/
 
 @media (min-width: 375px) and (min-height: 800px) {
-
-#about {
-	overflow-y: hidden;
-}
 
 #projects .p-bgimage {
     height: 22.5vh!important;
