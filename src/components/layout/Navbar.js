@@ -38,7 +38,7 @@ export default function Navbar() {
   const closeIcon = <i className="bi bi-menu-app"></i>;
   const menuIcon = open ? openIcon : closeIcon;
 
-  const navMenuClass = width < 730 ? (open ? "navOpen" : "navClose") : "";
+  const navMenuClass = width < 650 ? (open ? "navOpen" : "navClose") : "";
 
   return (
     <BootstrapNav className={navMenuClass}>
