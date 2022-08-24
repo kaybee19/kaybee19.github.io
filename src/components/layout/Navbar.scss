@@ -9,6 +9,8 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  top: 0;
+  bottom: 0;
   @media only screen and (min-width: 650px) {
     overflow-y: auto;
   }
