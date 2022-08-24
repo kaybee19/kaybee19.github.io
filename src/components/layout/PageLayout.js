@@ -1,0 +1,70 @@
+import React from "react";
+import "./PageLayout.scss";
+import { useApp } from "../../AppContext";
+
+// Hook for checking viewport + animation package
+import { useInView } from "react-hook-inview";
+import SmoothList from "react-smooth-list";
+
+// Comps
+import Hero from "./Hero";
+import Body from "./Body";
+import Footer from "./Footer";
+
+export default function PageLayout(props) {
+  const {
+    name,
+    animation,
+    subHeader,
+    heading1,
+    body1,
+    heading2,
+    body2,
+    images,
+    children,
+    forecolor,
+    backcolor,
+    darkcolor,
+  } = props;
+
+  const { width } = useApp();
+
+  const [view, setView] = React.useState(false);
+  const [ref, isVisible] = useInView({
+    threshold: 0,
+  });
+
+  // Trigger setView on viewport enter
+  React.useEffect(() => {
+    if (width < 900) {
+      setTimeout(() => {
+        isVisible ? setView(true) : setView(false);
+      }, 500);
+    } else {
+      isVisible ? setView(true) : setView(false);
+    }
+  }, [isVisible, width]);
+
+  return (
+    <section style={{ background: forecolor, width: "100%" }}>
+      <Hero name={name} animation={animation} />
+      <div ref={ref} className={`${isVisible ? "fade-in" : "fade-out"}`}>
+        <SmoothList transitionDuration={500} delay={500} visible={view}>
+          <Body
+            subHeader={subHeader}
+            heading1={heading1}
+            body1={body1}
+            heading2={heading2}
+            body2={body2}
+            images={images}
+            forecolor={forecolor}
+            backcolor={backcolor}
+            darkcolor={darkcolor}
+          />
+        </SmoothList>
+      </div>
+      {children}
+      <Footer />
+    </section>
+  );
+}

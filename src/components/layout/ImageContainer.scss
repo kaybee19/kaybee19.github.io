@@ -1,0 +1,37 @@
+.img-container {
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    width: 17.5%;
+    max-width: 17.5%;
+    text-align: center;
+    @media only screen and (max-width: 950px) {
+      width: 30%;
+      max-width: 30%;
+    }
+    @media only screen and (max-width: 568px) {
+      width: 50%;
+      max-width: 50%;
+    }
+  }
+
+  .img-class {
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    width: 97.5%;
+    transition: .5s linear;
+    &:hover {
+      background-color: rgba(255,255,255,.75);
+      transition: .5s linear;
+    }
+  }
+
+}

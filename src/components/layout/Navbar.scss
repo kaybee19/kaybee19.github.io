@@ -1,0 +1,132 @@
+nav {
+  background-color: black;
+  min-width: 75px;
+  width: 75px;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media only screen and (min-width: 730px) {
+    overflow-y: auto;
+  }
+
+  .container {
+    height: 100%;
+    padding: 15vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: 950px) {
+      padding: 10vh 0;
+    }
+
+   .navbar-nav {
+      height: 100%;
+      max-height: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -30px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    @media only screen and (min-width: 730px) {
+      display: none;
+    }
+  }
+
+  .link-class {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1rem 0; 
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  .link-class:hover, .active {
+    // &:nth-child(1) {
+    //   color: #959595;
+    // }
+    &:nth-child(1) {
+      color: #FFC619;
+    }
+    &:nth-child(2) {
+      color: #004DA9;
+    }
+    &:nth-child(3) {
+      color: #F16701;
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    height: 175px;
+    min-height: 175px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      margin: 4px;
+      &:hover {
+        color: #959595;
+      }
+    }
+  }
+}
+
+.navClose {
+  animation-name: slideclose;
+  animation-timing-function:ease-out;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+.navOpen {
+  animation-name: slideopen;
+  animation-timing-function:ease-out;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideopen {
+  from {
+    left: -75px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes slideclose {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: -75px;
+  }
+}

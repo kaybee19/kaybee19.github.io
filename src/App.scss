@@ -1,0 +1,29 @@
+#app-container {
+  display: flex;
+}
+
+#app-container {
+  margin-left: 75px;
+  @media (max-height: 500px) and (max-width: 950px) {
+    margin-left: 75px;
+  }
+  @media (max-height: 950px) and (max-width: 500px) {
+    margin-left: 0px;
+  }
+}
+
+.border-round {
+  border-radius: 50%;
+}
+
+.fade-in {
+  visibility: visible;
+  opacity: 1;
+  transition: .5s linear;
+}
+
+.fade-out {
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s linear;
+}
