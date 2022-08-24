@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aefb7767.css",
+    "main.js": "/static/js/main.e5d01f1c.js",
+    "static/js/787.04d8144a.chunk.js": "/static/js/787.04d8144a.chunk.js",
+    "static/media/apertureMock.png": "/static/media/apertureMock.37cc857587d47bee5ddd.png",
+    "static/media/thugsMock.png": "/static/media/thugsMock.058af22b92bea5e7a070.png",
+    "static/media/apertureAppMock.png": "/static/media/apertureAppMock.82130bfbfbf2df800b0d.png",
+    "static/media/workImg2.gif": "/static/media/workImg2.f819d209ea18fe77410d.gif",
+    "static/media/edenMock.png": "/static/media/edenMock.3bab9689518f535723be.png",
+    "static/media/bambooMock.png": "/static/media/bambooMock.5730ca2e79db291ca4f6.png",
+    "static/media/blkMock.png": "/static/media/blkMock.c094bfc5e7d6a02405cb.png",
+    "static/media/secLogo.png": "/static/media/secLogo.1e5fee8dfb058bff6a5c.png",
+    "static/media/carSaverLogo.png": "/static/media/carSaverLogo.04a2f82e1fee6d8649fa.png",
+    "static/media/brynLogo.png": "/static/media/brynLogo.afecfa653b7a568440ae.png",
+    "static/media/jhuLogo.png": "/static/media/jhuLogo.a5626af07d9f93f8e3d7.png",
+    "static/media/mainLogo.png": "/static/media/mainLogo.5b3fbd7ea5faf4c76521.png",
+    "static/media/towsonLogo.png": "/static/media/towsonLogo.a78c02fec42f1033c842.png",
+    "static/media/tmLogo.png": "/static/media/tmLogo.230b8840a9fa1e988bc7.png",
+    "static/media/zooLogo.png": "/static/media/zooLogo.b639db17b417812cb2bc.png",
+    "static/media/hotfmLogo.png": "/static/media/hotfmLogo.8d95227050697e47c9cd.png",
+    "static/media/mscLogo.png": "/static/media/mscLogo.ea7dd5c0e9ff0e772636.png",
+    "static/media/apertureLogo.png": "/static/media/apertureLogo.7a58857bb4e528fd832b.png",
+    "static/media/bwgcLogo.png": "/static/media/bwgcLogo.255dc5a044f7097aff31.png",
+    "static/media/blkLogo.png": "/static/media/blkLogo.766e36980d6404381249.png",
+    "static/media/provisionsLogo.png": "/static/media/provisionsLogo.e4aaad0c85a3e3251085.png",
+    "static/media/workVideo.gif": "/static/media/workVideo.0859fa8863d386a4824c.gif",
+    "static/media/homeVideo.gif": "/static/media/homeVideo.a2deb2c039b8793b8302.gif",
+    "static/media/portVideo.gif": "/static/media/portVideo.1a420096eb92d34ef12d.gif",
+    "static/media/bsfaLogo.png": "/static/media/bsfaLogo.4dbd35f6995d806b6206.png",
+    "static/media/fastpaceLogo.png": "/static/media/fastpaceLogo.a2062e36f66705dfeaa6.png",
+    "static/media/ecoreLogo.png": "/static/media/ecoreLogo.e2a81734008ac603e67c.png",
+    "static/media/bambooLogo.png": "/static/media/bambooLogo.7f70adf7e60716098721.png",
+    "index.html": "/index.html",
+    "main.aefb7767.css.map": "/static/css/main.aefb7767.css.map",
+    "main.e5d01f1c.js.map": "/static/js/main.e5d01f1c.js.map",
+    "787.04d8144a.chunk.js.map": "/static/js/787.04d8144a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aefb7767.css",
+    "static/js/main.e5d01f1c.js"
+  ]
+}
