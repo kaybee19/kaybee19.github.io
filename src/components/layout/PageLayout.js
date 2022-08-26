@@ -75,7 +75,7 @@ export default function PageLayout(props) {
           />
         </SmoothList>
       </div>
-      <div className="snap-container" ref={childRef}>
+      <div ref={childRef}>
         {children}
       </div>
       <Footer />
