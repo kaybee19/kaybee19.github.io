@@ -66,6 +66,7 @@ export default function Navbar() {
               to={nav.link}
               className={`link-class ${pathname === nav.link ? "active" : ""}`}
               name={nav.name}
+              onClick={() => setOpen(!open)}
             >
               {nav.name}
             </Link>
