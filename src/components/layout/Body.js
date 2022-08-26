@@ -18,6 +18,7 @@ export default function Body(props) {
     heading2,
     body2,
     images,
+    forecolor,
     backcolor,
     darkcolor,
   } = props;
@@ -42,7 +43,7 @@ export default function Body(props) {
 
   return (
     <Container ref={ref} className="body-container">
-      <div className="top">
+      <div className="top" style={{ backgroundColor: forecolor }}>
         <SmoothList transitionDuration={1100} delay={1100} visible={view}>
           <div className="content">
             <span>

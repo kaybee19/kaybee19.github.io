@@ -1,9 +1,4 @@
-html {
-  background: black;
-}
-
 body {
-  margin: 0;
   font-family: 'Rajdhani', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,6 +8,20 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
 nav {
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none;  /* IE and Edge */

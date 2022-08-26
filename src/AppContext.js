@@ -7,11 +7,12 @@ export function useApp() {
 }
 
 const AppProvider = ({ children }) => {
-  const [height, setheight] = React.useState(0);
+  const [height, setHeight] = React.useState(0);
+  const [globalColor, setColor] = React.useState(0);
   // Get height
   React.useEffect(() => {
     window.addEventListener("scroll", (x) =>
-      setheight(x.target.scrollingElement.scrollTop)
+      setHeight(x.target.scrollingElement.scrollTop)
     );
   }, [height]);
 
@@ -26,6 +27,8 @@ const AppProvider = ({ children }) => {
       value={{
         width,
         height,
+        globalColor,
+        setColor,
       }}
     >
       {children}

@@ -1,0 +1,10 @@
+.page-layout {
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  scroll-snap-type: y proximity;
+
+  .snap-container {
+    scroll-snap-align: start;
+  }
+}

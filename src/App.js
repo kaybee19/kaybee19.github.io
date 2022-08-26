@@ -1,3 +1,4 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
 
@@ -15,7 +16,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <AppProvider>
-      <div className="App">
+      <React.Fragment>
         <Navbar />
         <div id="app-container">
           <Routes>
@@ -26,7 +27,7 @@ function App() {
             {/*<Route path="contact" element={<Contact />} />*/}
           </Routes>
         </div>
-      </div>
+      </React.Fragment>
     </AppProvider>
   );
 }

@@ -9,7 +9,7 @@ import Nav from "react-bootstrap/Nav";
 import BootstrapNav from "react-bootstrap/Navbar";
 
 export default function Navbar() {
-  const { width } = useApp();
+  const { width, globalColor, setColor } = useApp();
   const [open, setOpen] = React.useState(false);
 
   // Get pathname
@@ -39,6 +39,22 @@ export default function Navbar() {
   const menuIcon = open ? openIcon : closeIcon;
 
   const navMenuClass = width < 650 ? (open ? "navOpen" : "navClose") : "";
+
+  React.useEffect(() => {
+    if (!globalColor) {
+      setColor("#f98f41");
+    } else if (pathname === "/") {
+      setColor("#f98f41");
+    } else if (pathname === "/work") {
+      setColor("#5441f9");
+    } else if (pathname === "/projects") {
+      setColor("#f9cb41");
+    } else {
+      setColor("#f98f41");
+    }
+
+    document.body.style.background = globalColor;
+  }, [globalColor, pathname, setColor]);
 
   return (
     <BootstrapNav className={navMenuClass}>

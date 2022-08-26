@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 
 export default function Hero(props) {
   const { height } = useApp();
-  const { name, animation } = props;
+  const { name, animation, bodyIsVisible } = props;
 
   const handleScroll = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -16,7 +16,7 @@ export default function Hero(props) {
 
   return (
     <React.Fragment>
-      <span className={`${height > 450 ? "fade-out" : "fade-in"}`}>
+      <span className={`${bodyIsVisible ? "fade-in" : "fade-out"}`}>
         <div className={`${name}-bg fixed-bg`}></div>
         <Container className={`hero-container`}>
           <div className="header-text">front-end developer / sr. engineer</div>

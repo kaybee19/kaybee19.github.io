@@ -30,7 +30,10 @@ export default function PageLayout(props) {
   const { width } = useApp();
 
   const [view, setView] = React.useState(false);
-  const [ref, isVisible] = useInView({
+  const [bodyRef, bodyIsVisible] = useInView({
+    threshold: 0,
+  });
+  const [childRef, childIsVisible] = useInView({
     threshold: 0,
   });
 
@@ -38,17 +41,26 @@ export default function PageLayout(props) {
   React.useEffect(() => {
     if (width < 900) {
       setTimeout(() => {
-        isVisible ? setView(true) : setView(false);
+        bodyIsVisible ? setView(true) : setView(false);
       }, 500);
     } else {
-      isVisible ? setView(true) : setView(false);
+      bodyIsVisible ? setView(true) : setView(false);
     }
-  }, [isVisible, width]);
+  }, [bodyIsVisible, width]);
 
   return (
-    <section style={{ background: forecolor, width: "100%" }}>
-      <Hero name={name} animation={animation} />
-      <div ref={ref} className={`${isVisible ? "fade-in" : "fade-out"}`}>
+    <section style={{ background: forecolor }} className="page-layout">
+      <div className="snap-container">
+        <Hero
+          name={name}
+          animation={animation}
+          bodyIsVisible={!bodyIsVisible && !childIsVisible}
+        />
+      </div>
+      <div
+        ref={bodyRef}
+        className={`${bodyIsVisible ? "fade-in" : "fade-out"} snap-container`}
+      >
         <SmoothList transitionDuration={500} delay={500} visible={view}>
           <Body
             subHeader={subHeader}
@@ -63,7 +75,9 @@ export default function PageLayout(props) {
           />
         </SmoothList>
       </div>
-      {children}
+      <div className="snap-container" ref={childRef}>
+        {children}
+      </div>
       <Footer />
     </section>
   );
