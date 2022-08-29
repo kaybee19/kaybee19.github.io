@@ -32,21 +32,23 @@ export default function Projects(props) {
 
   return (
     <Col ref={ref}>
-      {view && (
-        <SmoothList transitionDuration={1500} visible={view}>
-          <h1>{title}</h1>
-          <p>{text}</p>
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="link-class"
-          >
-            <ButtonBorder small white text="view live" />
-          </a>
-          <img src={img} alt={`${img}`} className="project-img" />
-        </SmoothList>
-      )}
+      <div>
+        {(
+          <SmoothList transitionDuration={1500} visible={view}>
+            <h1>{title}</h1>
+            <p>{text}</p>
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="link-class"
+            >
+              <ButtonBorder small white text="view live" />
+            </a>
+            <img src={img} alt={`${img}`} className="project-img" />
+          </SmoothList>
+        )}
+      </div>
     </Col>
   );
 }
