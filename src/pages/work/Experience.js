@@ -34,7 +34,7 @@ export default function Experience(props) {
     <Container ref={ref}>
       <Row>
         <div className="col-6">
-          <SmoothList transitionDuration={1500} visible={view}>
+          <SmoothList transitionDuration={500} visible={view}>
             <h5>{role}</h5>
             <h1>{company}</h1>
             <p>{summary}</p>

@@ -34,7 +34,7 @@ export default function Projects(props) {
     <Col ref={ref}>
       <div>
         {(
-          <SmoothList transitionDuration={1500} visible={view}>
+          <SmoothList transitionDuration={500} visible={view}>
             <h1>{title}</h1>
             <p>{text}</p>
             <a

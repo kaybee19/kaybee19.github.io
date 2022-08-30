@@ -50,18 +50,16 @@ export default function PageLayout(props) {
 
   return (
     <section style={{ background: forecolor }} className="page-layout">
-      <div className="snap-container">
-        <Hero
-          name={name}
-          animation={animation}
-          bodyIsVisible={!bodyIsVisible && !childIsVisible}
-        />
-      </div>
+      <Hero
+        name={name}
+        animation={animation}
+        bodyIsVisible={!bodyIsVisible && !childIsVisible}
+      />
       <div
         ref={bodyRef}
-        className={`${bodyIsVisible ? "fade-in" : "fade-out"} snap-container`}
+        className={`${bodyIsVisible ? "fade-in" : "fade-out"}`}
       >
-        <SmoothList transitionDuration={500} delay={500} visible={view}>
+        <SmoothList transitionDuration={500} visible={view}>
           <Body
             subHeader={subHeader}
             heading1={heading1}
