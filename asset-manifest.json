@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.93907811.css",
-    "main.js": "/static/js/main.bb2d4539.js",
+    "main.js": "/static/js/main.71c2082c.js",
     "static/js/787.04d8144a.chunk.js": "/static/js/787.04d8144a.chunk.js",
-    "static/media/apertureMock.png": "/static/media/apertureMock.37cc857587d47bee5ddd.png",
-    "static/media/thugsMock.png": "/static/media/thugsMock.058af22b92bea5e7a070.png",
-    "static/media/apertureAppMock.png": "/static/media/apertureAppMock.82130bfbfbf2df800b0d.png",
     "static/media/workImg2.gif": "/static/media/workImg2.f819d209ea18fe77410d.gif",
-    "static/media/edenMock.png": "/static/media/edenMock.3bab9689518f535723be.png",
-    "static/media/bambooMock.png": "/static/media/bambooMock.5730ca2e79db291ca4f6.png",
-    "static/media/blkMock.png": "/static/media/blkMock.c094bfc5e7d6a02405cb.png",
+    "static/media/marylandZoo.webp": "/static/media/marylandZoo.95e8cef282f78bf4fc12.webp",
+    "static/media/apertureWeb.webp": "/static/media/apertureWeb.c31611dd90e0547c5d9c.webp",
+    "static/media/apertureApp.webp": "/static/media/apertureApp.197ac52673b46496339f.webp",
+    "static/media/investBamboo.webp": "/static/media/investBamboo.e42ce6fea9b5bef9bb05.webp",
+    "static/media/edenMock.webp": "/static/media/edenMock.9715142b9c96a79ff612.webp",
+    "static/media/simbavati.webp": "/static/media/simbavati.dba16506786ce5da773c.webp",
     "static/media/secLogo.png": "/static/media/secLogo.1e5fee8dfb058bff6a5c.png",
     "static/media/carSaverLogo.png": "/static/media/carSaverLogo.04a2f82e1fee6d8649fa.png",
     "static/media/brynLogo.png": "/static/media/brynLogo.afecfa653b7a568440ae.png",
@@ -25,6 +25,7 @@
     "static/media/blkLogo.png": "/static/media/blkLogo.766e36980d6404381249.png",
     "static/media/provisionsLogo.png": "/static/media/provisionsLogo.e4aaad0c85a3e3251085.png",
     "static/media/workVideo.gif": "/static/media/workVideo.0859fa8863d386a4824c.gif",
+    "static/media/ncrLogo.png": "/static/media/ncrLogo.13417862da8bcde67bbc.png",
     "static/media/homeVideo.gif": "/static/media/homeVideo.a2deb2c039b8793b8302.gif",
     "static/media/portVideo.gif": "/static/media/portVideo.1a420096eb92d34ef12d.gif",
     "static/media/bsfaLogo.png": "/static/media/bsfaLogo.4dbd35f6995d806b6206.png",
@@ -33,11 +34,11 @@
     "static/media/bambooLogo.png": "/static/media/bambooLogo.7f70adf7e60716098721.png",
     "index.html": "/index.html",
     "main.93907811.css.map": "/static/css/main.93907811.css.map",
-    "main.bb2d4539.js.map": "/static/js/main.bb2d4539.js.map",
+    "main.71c2082c.js.map": "/static/js/main.71c2082c.js.map",
     "787.04d8144a.chunk.js.map": "/static/js/787.04d8144a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93907811.css",
-    "static/js/main.bb2d4539.js"
+    "static/js/main.71c2082c.js"
   ]
 }
