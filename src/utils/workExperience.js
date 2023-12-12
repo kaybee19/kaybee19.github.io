@@ -2,13 +2,24 @@ import secLogo from "../assets/images/secLogo.png";
 import blkLogo from "../assets/images/blkLogo.png";
 import missionLogo from "../assets/images/missionLogo.png";
 import provisionsLogo from "../assets/images/provisionsLogo.png";
+import ncrLogo from "../assets/images/ncrLogo.png";
 
 export const workExp = [
+  {
+    image: ncrLogo,
+    company: "NCR",
+    role: "Lead, Design",
+    date: "December 2022 - PRESENT",
+    summary:
+      "Senior developer working on creating design systems and building shared components libraries which are used by over 100 designers and 300 engineers across the organization. I focus on the development/deployment of UI components primarily using React, MUI & Storybooks, and the development of the native components using React Native, Expo, and Tamagui.",
+    about:
+      "NCR Corporation is a leading global provider of digital commerce solutions for the retail, restaurant and digital banking industries. NCR transforms retail stores, restaurant systems and digital banking experiences with comprehensive, platform-led SaaS and services capabilities.",
+  },
   {
     image: provisionsLogo,
     company: "Provisions Group",
     role: "Sr. Developer",
-    date: "September 2021 - PRESENT",
+    date: "September 2021 - December 2022",
     summary:
       "Front-end developer and Sr. Engineer for staff augmentation company. Working with many different teams, I help build unique web and mobile solutions to meet and exceed customer needs. I lead and support development efforts by providing technical expertise and solutions to complex problems, and reviewing code to ensure standards are met.",
     about:

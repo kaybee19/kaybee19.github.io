@@ -19,7 +19,7 @@ export default function Hero(props) {
       <span className={`${bodyIsVisible ? "fade-in" : "fade-out"}`}>
         <div className={`${name}-bg fixed-bg`}></div>
         <Container className={`hero-container`}>
-          <div className="header-text">front-end developer / sr. engineer</div>
+          <div className="header-text">front-end developer / senior engineer</div>
           <a
             target="_blank"
             rel="noreferrer"

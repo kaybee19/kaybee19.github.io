@@ -1,6 +1,6 @@
-export { default as apertureAppMock } from "./apertureAppMock.png";
-export { default as apertureMock } from "./apertureMock.png";
-export { default as blkMock } from "./blkMock.png";
-export { default as edenMock } from "./edenMock.png";
-export { default as bambooMock } from "./bambooMock.png";
-export { default as thugsMock } from "./thugsMock.png";
+export { default as apertureApp } from "./apertureApp.webp";
+export { default as apertureWeb } from "./apertureWeb.webp";
+export { default as edenMock } from "./edenMock.webp";
+export { default as investBamboo } from "./investBamboo.webp";
+export { default as marylandZoo } from "./marylandZoo.webp";
+export { default as simbavati } from "./simbavati.webp";
